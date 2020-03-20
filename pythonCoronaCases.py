@@ -49,7 +49,7 @@ async def getCases():
 async def main():
 	cases = await asyncio.gather(getCases())
 
-asyncio.run(main())
+await main()
 
 
 
